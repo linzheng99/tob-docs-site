@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/what-is-vitepress
+      link: /guide/what-is-vitepressTemplate
     - theme: alt
       text: View on GitHub
       link: https://github.com/linzhengGithub/vitepress-template
