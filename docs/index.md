@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: VitePress-template
-  text: Vite & Vue powered static site generator.
+  text: Quickly create document template.
   tagline: Lorem ipsum...
   image:
     src: /logo.png
@@ -14,5 +14,16 @@ hero:
       link: /guide/what-is-vitepress
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/linzhengGithub/vitepress-template
+
+features:
+  - icon: ⚡️
+    title: Vite, The DX that can't be beat
+    details: Lorem ipsum...
+  - icon: 🖖
+    title: Power of Vue meets Markdown
+    details: Lorem ipsum...
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
 ---
