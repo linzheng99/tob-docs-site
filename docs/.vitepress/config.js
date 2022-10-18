@@ -19,7 +19,11 @@ export default defineConfig({
     // },
     sidebar: {
       '/guide/': sidebarGuide()
-    }
+    },
+    // footer: {
+    //   message: '',
+    //   copyright: '',
+    // }
   }
 })
 
