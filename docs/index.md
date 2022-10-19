@@ -27,4 +27,3 @@ features:
     title: Simple and minimal, always
     details: Lorem ipsum...
 ---
-<CountBtn />

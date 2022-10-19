@@ -4,7 +4,6 @@ import Unocss from "../config/unocss";
 
 export default defineConfig({
   plugins: [
-    // 添加JSX插件
     Unocss(),
   ],
 });

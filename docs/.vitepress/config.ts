@@ -1,6 +1,5 @@
-import { defineConfig } from 'vitepress'
 
-export default defineConfig({
+const config = {
   title: 'VitePress-template',
   themeConfig: {
     logo: '/logo.png',
@@ -25,11 +24,20 @@ export default defineConfig({
     //   copyright: '',
     // }
   }
-})
+}
 
 function nav() {
   return [
     { text: 'Guide', link: '/guide/introduction/whatisthis/', activeMatch: '/guide/' },
+    {
+      text: 'items',
+      items: [
+        {
+          text: 'goGuide',
+          link: '/guide/introduction/whatisthis/'
+        }
+      ]
+    }
   ]
 }
 
@@ -53,3 +61,5 @@ function sidebarGuide() {
     }
   ]
 }
+
+export default config
