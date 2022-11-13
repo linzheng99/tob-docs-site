@@ -5,6 +5,7 @@
   <div id="app" >
     <h1>component test</h1>
     <CountBtn/>
+    <JsxButton>JsxButton</JsxButton>
   </div>
 </template>
 

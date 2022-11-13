@@ -5,7 +5,7 @@ export function sidebarComponents() {
       collapsible: true,
       items: [
         { text: 'What is Button?', link: '/components/button/' },
-        { text: 'Getting Started', link: '/components/button/' },
+        { text: 'JsxButton', link: '/components/button/jsxButton' },
       ]
     },
     {
