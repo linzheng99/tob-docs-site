@@ -9,7 +9,6 @@ export default defineConfig({
     Unocss(),
   ],
   server: {
-    host: true,
-    hmr: true,
+    hmr: true
   }
 });

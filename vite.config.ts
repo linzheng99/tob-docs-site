@@ -18,8 +18,4 @@ export default defineConfig({
     vueJsx(),
     Unocss({})
   ],
-  server: {
-    host: true,
-    hmr: true,
-  }
 });
