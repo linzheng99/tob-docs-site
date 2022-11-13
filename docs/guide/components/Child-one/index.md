@@ -1,7 +1,8 @@
 # Child-one
 
 ## jsCode
-```js
-const a = 1
-const b = 2
+```vue
+<template>
+  <div @click='dsa'>321</div>
+</template>
 ```
