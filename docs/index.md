@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: VitePress-template
+  name: Notes-template
   text: Quickly create document template.
   tagline: Lorem ipsum...
   image:
@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/what-is-vitepressTemplate
+      link: /guide/introduction/reference/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/linzhengGithub/vitepress-template
+      link: https://github.com/linzhengGithub/notes-template
 
 features:
   - icon: ⚡️

@@ -3,14 +3,15 @@ import { sidebarComponents } from '../components/index';
 import { nav } from '../navbar/index';
 
 const config = {
-  title: 'VitePress-template',
+  title: 'Notes-template',
+  lastUpdated: true,
   themeConfig: {
     logo: '/logo.png',
-    siteTitle: 'VitePress-template',
+    siteTitle: 'Notes-template',
     nav: nav(),
     // navbar link
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/linzhengGithub/vitepress-template' }
+      { icon: 'github', link: 'https://github.com/linzhengGithub/notes-template' }
     ],
     // 需申请
     // algolia: {
