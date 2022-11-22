@@ -3,6 +3,7 @@ import { sidebarComponents } from '../components/index';
 import { nav } from '../navbar/index';
 
 const config = {
+  base: '/notes-blog/',
   title: 'Notes-template',
   lastUpdated: true,
   themeConfig: {
