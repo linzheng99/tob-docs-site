@@ -1,2 +1,1 @@
-# Notes
-Notes template
+# notes-blog
