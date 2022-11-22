@@ -1,2 +1,2 @@
-# vitepress-template
+# Notes
 Notes template
