@@ -3,7 +3,15 @@ export function nav() {
     { text: 'Guide', link: '/guide/introduction/whatisthis/', activeMatch: '/guide/' },
     { text: 'Components', link: '/components/Button/', activeMatch: '/components/' },
     {
-      text: 'items',
+      text: 'project',
+      items: [
+        {
+          text: 'goGuide',
+          link: '/guide/introduction/whatisthis/'
+        }
+      ]
+    },{
+      text: 'notes',
       items: [
         {
           text: 'goGuide',
