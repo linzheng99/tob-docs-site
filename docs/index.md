@@ -14,7 +14,7 @@ hero:
       link: /guide/introduction/reference/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/linzhengGithub/notes-template
+      link: https://github.com/linzhengGithub/notes-blog
 
 features:
   - icon: ⚡️
