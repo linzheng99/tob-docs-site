@@ -1,15 +1,14 @@
-import { sidebarGuide } from '../guide/index';
-import { sidebarComponents } from '../components/index';
-import { nav } from '../navbar/index';
+import { setupSidebar } from '../sidebar';
+import { setupNav } from '../nav/index';
 
 const config = {
-  base: '/notes-blog/',
-  title: 'Notes-template',
+  base: '/tob-docs-site/',
+  title: 'tob-docs-site',
   lastUpdated: true,
   themeConfig: {
     logo: '/logo.png',
-    siteTitle: 'Notes-template',
-    nav: nav(),
+    siteTitle: 'tob-docs-site',
+    nav: setupNav(),
     // navbar link
     socialLinks: [
       { icon: 'github', link: 'https://github.com/linzhengGithub/notes-template' }
@@ -21,10 +20,7 @@ const config = {
     //   // If Algolia did not provided you any `appId`, use `BH4D9OD16A` or remove this option
     //   appId: '<APP_ID>',
     // },
-    sidebar: {
-      '/guide/': sidebarGuide(),
-      '/components/': sidebarComponents()
-    },
+    sidebar: setupSidebar(),
     // footer: {
     //   message: '',
     //   copyright: '',

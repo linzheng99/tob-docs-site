@@ -1,0 +1,97 @@
+export function setupSidebar() {
+    return [
+        {
+            text: '项目介绍',
+            collapsed: false,
+            items: [
+                { text: 'introduce', link: '/sidebar/Introduction/introduce' },
+                { text: 'Structure', link: '/sidebar/Introduction/structure' },
+            ],
+        },
+        {
+            text: '项目指南',
+            collapsed: false,
+            items: [
+                {
+                    text: 'Router',
+                    collapsed: false,
+                    items: [
+                        {
+                            text: 'router',
+                            link: '/sidebar/Guide/Router/router',
+                        },
+                        { text: 'guard', link: '/sidebar/Guide/Router/guard' },
+                    ],
+                },
+                {
+                    text: 'Layout',
+                    collapsed: false,
+                    items: [
+                        {
+                            text: 'sidebar',
+                            link: '/sidebar/Guide/Layout/sidebar',
+                        },
+                    ],
+                },
+                {
+                    text: 'Helper',
+                    collapsed: false,
+                    items: [
+                        {
+                            text: 'routerHelper',
+                            link: '/sidebar/Guide/Helpers/routerHelper',
+                        },
+                        {
+                            text: 'menuHelper',
+                            link: '/sidebar/Guide/Helpers/menuHelper',
+                        },
+                    ],
+                },
+                {
+                    text: 'Theme',
+                    collapsed: false,
+                    items: [
+                        {
+                            text: 'themeConfig',
+                            link: '/sidebar/Guide/Theme/themeConfig',
+                        },
+                    ],
+                },
+                {
+                    text: 'Utils',
+                    collapsed: false,
+                    items: [
+                        { text: 'axios', link: '/sidebar/Guide/Utils/axios' },
+                        { text: 'cache', link: '/sidebar/Guide/Utils/cache' },
+                    ],
+                },
+                {
+                    text: 'Components',
+                    collapsed: false,
+                    items: [
+                        {
+                            text: 'TableRender',
+                            link: '/sidebar/Guide/Components/TableRender',
+                        },
+                        {
+                            text: 'FormRender',
+                            link: '/sidebar/Guide/Components/FormRender',
+                        },
+                        {
+                            text: 'DescriptionsRender',
+                            link: '/sidebar/Guide/Components/DescriptionsRender',
+                        },
+                        {
+                            text: 'LoadingEmptyWrapper',
+                            link: '/sidebar/Guide/Components/LoadingEmptyWrapper',
+                        },
+                        {
+                            text: 'UploadRender',
+                            link: '/sidebar/Guide/Components/UploadRender',
+                        },
+                    ],
+                },
+            ],
+        },
+    ];
+}

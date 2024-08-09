@@ -1,43 +1,43 @@
 {
-  "name": "vitepress-template",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "18.7.18",
-    "@typescript-eslint/eslint-plugin": "^5.42.1",
-    "@vitejs/plugin-vue": "^3.1.2",
-    "@vitejs/plugin-vue-jsx": "^2.1.1",
-    "eslint": "^8.27.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-vue": "^9.7.0",
-    "prettier": "^2.7.1",
-    "unocss": "^0.45.29",
-    "vite": "^3.1.8",
-    "vitepress": "1.0.0-alpha.21",
-    "vitepress-theme-demoblock": "1.4.2",
-    "vue": "^3.2.41"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@algolia/client-search"
-      ]
+    "name": "vitepress-template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:serve": "vitepress serve docs",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "18.7.18",
+        "@typescript-eslint/eslint-plugin": "^5.42.1",
+        "@vitejs/plugin-vue": "^3.1.2",
+        "@vitejs/plugin-vue-jsx": "^2.1.1",
+        "eslint": "^8.27.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "eslint-plugin-vue": "^9.7.0",
+        "prettier": "^2.7.1",
+        "unocss": "^0.45.29",
+        "vite": "^3.1.8",
+        "vitepress": "1.0.0-alpha.51",
+        "vitepress-theme-demoblock": "1.4.2",
+        "vue": "^3.2.41"
+    },
+    "pnpm": {
+        "peerDependencyRules": {
+            "ignoreMissing": [
+                "@algolia/client-search"
+            ]
+        }
+    },
+    "dependencies": {
+        "element-plus": "^2.2.19"
     }
-  },
-  "dependencies": {
-    "element-plus": "^2.2.19"
-  }
 }
