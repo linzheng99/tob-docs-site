@@ -1,3 +1,6 @@
-# notes-blog
+# tob-template-docs-site
 
-github workflows
+```sh
+pnpm i
+pnpm docs:dev
+```
